@@ -35,6 +35,7 @@ public class TestDbServlet extends HttpServlet {
 		
 		// get connection to database
 		try {
+			
 			PrintWriter out = response.getWriter();
 			
 		out.println("Connecting to database: " + jdbcUrl);
